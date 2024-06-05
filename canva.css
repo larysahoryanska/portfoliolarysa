@@ -25,7 +25,8 @@ img video {
 @media (max-width: 430px) {
   .sizing-small,
   .phase-ready,
-  .state-stopped {
+  .state-stopped,
+  .-webkit-media-controls-enclosure {
     max-width: 80%;
   }
 }
