@@ -561,11 +561,17 @@ span:nth-of-type(7) {
   .all {
     display: none;
   }
+  #container {
+    width: 65%;
+  }
   .full-container {
     margin-right: 0;
   }
   .container-project {
     padding: 100px 40px;
+  }
+  .container-project .card .content {
+    padding: 0 40px;
   }
 }
 @media (max-width: 420px) {
@@ -599,6 +605,9 @@ span:nth-of-type(7) {
   }
   .container-project {
     padding: 100px 10px;
+  }
+  .container-project .card .content {
+    padding: 0 10px;
   }
 }
 @media (max-width: 354px) {
