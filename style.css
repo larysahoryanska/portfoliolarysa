@@ -72,6 +72,7 @@ p {
   opacity: 0;
   animation: 0.5s swift-up ease-out forwards, 0.5s fade-in ease-out forwards;
   animation-delay: 0.8s;
+  text-align: justify;
 }
 
 @keyframes fade-in {
@@ -356,7 +357,7 @@ span:nth-of-type(7) {
   font-weight: 300;
 }
 .descripcion-contact {
-  max-width: 60%;
+  max-width: 70%;
   text-align: start;
 }
 .descripcion-contact p {
