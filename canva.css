@@ -16,11 +16,9 @@ a {
   text-align: center;
 }
 
-.img img {
+.img img,
+img video {
   max-width: 90%;
   max-height: auto;
   margin: 5%;
-}
-.img video {
-  max-width: 80%;
 }
