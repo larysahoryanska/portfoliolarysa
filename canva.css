@@ -14,6 +14,7 @@ a {
   text-decoration: none;
   color: rgb(5, 99, 102);
   text-align: center;
+  font-size: ;
 }
 
 .img img,
@@ -28,5 +29,8 @@ img video {
   .state-stopped,
   .-webkit-media-controls-enclosure {
     max-width: 80%;
+  }
+  h1 {
+    font-size: 26px;
   }
 }
