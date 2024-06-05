@@ -525,6 +525,9 @@ span:nth-of-type(7) {
   .container-foto img {
     display: none;
   }
+  .full-container {
+    min-width: 100vw;
+  }
   #container {
     display: flex;
     justify-content: center;
