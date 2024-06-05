@@ -564,6 +564,9 @@ span:nth-of-type(7) {
   .full-container {
     margin-right: 0;
   }
+  .container-project {
+    padding: 100px 40px;
+  }
 }
 @media (max-width: 420px) {
   .container-project .card {
