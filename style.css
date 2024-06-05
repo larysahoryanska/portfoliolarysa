@@ -597,6 +597,9 @@ span:nth-of-type(7) {
   .whatsapp-icon img {
     width: 40px;
   }
+  .container-project {
+    padding: 100px 10px;
+  }
 }
 @media (max-width: 354px) {
   .email-button {
