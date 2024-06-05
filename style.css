@@ -157,7 +157,7 @@ span:nth-of-type(7) {
 /* Estilos para el botón */
 .email-button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 10px 80px;
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
@@ -587,6 +587,7 @@ span:nth-of-type(7) {
 
   .email-button {
     font-size: 18px;
+    padding: 10px 60px;
   }
   .linkedin-icon img,
   .phone-icon img,
