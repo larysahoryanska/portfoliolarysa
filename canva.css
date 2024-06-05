@@ -24,11 +24,8 @@ img video {
   margin: 5%;
 }
 @media (max-width: 516px) {
-  .sizing-small,
-  .phase-ready,
-  .state-stopped,
-  .-webkit-media-controls-enclosure {
-    max-width: 80%;
+  video {
+    max-width: 90%;
   }
   h1 {
     font-size: 28px;
