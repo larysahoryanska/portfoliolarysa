@@ -30,7 +30,9 @@ img video {
   .-webkit-media-controls-enclosure {
     max-width: 80%;
   }
+}
+@media (max-width: 630px) {
   h1 {
-    font-size: 26px;
+    font-size: 28px;
   }
 }
