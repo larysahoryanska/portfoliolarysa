@@ -359,6 +359,9 @@ span:nth-of-type(7) {
   max-width: 60%;
   text-align: start;
 }
+.descripcion-contact p {
+  text-align: justify;
+}
 .all {
   display: flex;
   perspective: 10px;
@@ -474,6 +477,7 @@ span:nth-of-type(7) {
     width: 150px;
     height: 100px;
   }
+
   .explainer {
     font-size: 1rem;
   }
@@ -518,9 +522,6 @@ span:nth-of-type(7) {
   p,
   .text {
     font-size: 0.6rem;
-  }
-  .descripcion-contact p {
-    text-align: justify;
   }
 }
 @media (max-width: 630px) {
