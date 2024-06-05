@@ -519,6 +519,9 @@ span:nth-of-type(7) {
   .text {
     font-size: 0.6rem;
   }
+  .descripcion-contact p {
+    text-align: justify;
+  }
 }
 @media (max-width: 630px) {
   .container-foto,
@@ -576,9 +579,6 @@ span:nth-of-type(7) {
   }
   .container-project .card .content {
     padding: 0 40px;
-  }
-  .descripcion-contact p {
-    text-align: justify;
   }
 }
 @media (max-width: 420px) {
