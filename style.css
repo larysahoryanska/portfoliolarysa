@@ -525,7 +525,7 @@ span:nth-of-type(7) {
   .container-foto img {
     display: none;
   }
-  .full-container {
+  #container {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -542,9 +542,7 @@ span:nth-of-type(7) {
   .all {
     margin-bottom: 15%;
   }
-  #container {
-    margin-left: 20%;
-  }
+
   .left,
   .center,
   .right,
