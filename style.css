@@ -525,6 +525,12 @@ span:nth-of-type(7) {
   .container-foto img {
     display: none;
   }
+  .full-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
   .button {
     font-size: 18px;
   }
