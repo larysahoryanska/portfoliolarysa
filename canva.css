@@ -14,7 +14,7 @@ a {
   text-decoration: none;
   color: rgb(5, 99, 102);
   text-align: center;
-  font-size: ;
+  font-size: 36px;
 }
 
 .img img,
@@ -23,14 +23,14 @@ img video {
   max-height: auto;
   margin: 5%;
 }
-/* @media (max-width: 430px) {
+@media (max-width: 430px) {
   .sizing-small,
   .phase-ready,
   .state-stopped,
   .-webkit-media-controls-enclosure {
     max-width: 80%;
   }
-} */
+}
 @media (max-width: 530px) {
   h1 {
     font-size: 28px;
