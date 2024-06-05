@@ -23,15 +23,13 @@ img video {
   max-height: auto;
   margin: 5%;
 }
-@media (max-width: 430px) {
+@media (max-width: 516px) {
   .sizing-small,
   .phase-ready,
   .state-stopped,
   .-webkit-media-controls-enclosure {
     max-width: 80%;
   }
-}
-@media (max-width: 530px) {
   h1 {
     font-size: 28px;
   }
