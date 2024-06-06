@@ -25,7 +25,7 @@ video {
 }
 @media (max-width: 516px) {
   video {
-    max-width: 90%;
+    max-width: 100%;
   }
   h1 {
     font-size: 28px;
