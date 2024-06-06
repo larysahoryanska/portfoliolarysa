@@ -318,7 +318,7 @@ span:nth-of-type(7) {
 .container-project .card .content p {
   color: #333;
   font-size: 14px;
-  margin: auto 2%;
+  padding: 0 1%;
 }
 
 .container-project .card .content a {
