@@ -474,12 +474,13 @@ span:nth-of-type(7) {
 footer {
   background: rgb(0, 0, 0);
   color: white;
-  text-align: center;
+
   padding: 20px;
 }
-
+p {
+  text-align: center;
+}
 footer p a {
-  color: white;
   text-decoration: none;
 }
 footer p:hover,
