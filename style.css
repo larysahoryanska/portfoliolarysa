@@ -484,10 +484,6 @@ span:nth-of-type(7) {
   }
   .container-foto,
   .container-foto img {
-    position: absolute;
-    top: 10%;
-    left: 20%;
-
     width: 100%;
     margin-bottom: 10%;
   }
