@@ -595,7 +595,11 @@ span:nth-of-type(7) {
 
     border-radius: 15px;
   }
-
+  .linkedin-icon,
+  .whatsapp-icon,
+  .phone-icon {
+    right: 10px; /* Ajusta la distancia desde la derecha */
+  }
   .container-project .card .img-box {
     width: 90%;
     border-radius: 10px;
