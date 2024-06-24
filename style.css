@@ -573,6 +573,11 @@ span:nth-of-type(7) {
   .all {
     display: none;
   }
+  .linkedin-icon,
+  .whatsapp-icon,
+  .phone-icon {
+    right: 20px; /* Ajusta la distancia desde la derecha */
+  }
 
   .full-container {
     margin-right: 0;
