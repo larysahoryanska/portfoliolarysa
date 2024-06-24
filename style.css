@@ -482,6 +482,15 @@ span:nth-of-type(7) {
   .email-button {
     margin-top: 3%;
   }
+  .container-foto,
+  .container-foto img {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: 3;
+    width: 100%;
+    margin-bottom: 10%;
+  }
   .explainer {
     font-size: 1rem;
   }
@@ -503,7 +512,7 @@ span:nth-of-type(7) {
     top: 10%;
     left: 20%;
     z-index: 3;
-    width: 90%;
+    width: 77%;
     margin-bottom: 10%;
   }
   #container {
