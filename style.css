@@ -472,16 +472,10 @@ span:nth-of-type(7) {
   align-items: center;
 }
 footer {
-  background: linear-gradient(
-    to bottom,
-    rgb(0, 0, 0),
-    rgb(13, 152, 156),
-    rgb(0, 0, 0)
-  );
+  background: rgb(0, 0, 0);
   color: white;
   text-align: center;
   padding: 20px;
-  margin-top: 15%;
 }
 
 footer p a {
