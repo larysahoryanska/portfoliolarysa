@@ -479,6 +479,7 @@ footer {
 }
 
 footer p a {
+  align-items: center;
   color: white;
   text-decoration: none;
 }
