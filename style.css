@@ -479,7 +479,9 @@ span:nth-of-type(7) {
     width: 150px;
     height: 100px;
   }
-
+  .email-button {
+    margin-top: 3%;
+  }
   .explainer {
     font-size: 1rem;
   }
