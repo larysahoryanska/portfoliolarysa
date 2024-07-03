@@ -259,7 +259,7 @@ span:nth-of-type(7) {
   height: 300px;
   background: rgb(238, 236, 229);
   border-radius: 20px;
-  transition: 1.2s;
+  transition: 0.9s;
   box-shadow: 0 35px 80px rgba(0, 0, 0, 0.336);
   font-weight: 200;
 }
@@ -276,7 +276,7 @@ span:nth-of-type(7) {
   background: #333;
   border-radius: 12px;
   overflow: hidden;
-  transition: 1.2s;
+  transition: 0.9s;
 }
 
 .container-project .card:hover .img-box {
@@ -302,7 +302,7 @@ span:nth-of-type(7) {
   padding: 0 30px;
   text-align: center;
   overflow: hidden;
-  transition: 1.2s;
+  transition: 0.9s;
 }
 
 .container-project .card:hover .content {
