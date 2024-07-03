@@ -199,23 +199,6 @@ span:nth-of-type(7) {
   z-index: 3;
   margin-bottom: 10%;
 }
-@media (max-width: 1156px) {
-  .whatsapp-icon img,
-  .phone-icon img,
-  .linkedin-icon img {
-    width: 40px;
-  }
-  .linkedin-icon {
-    bottom: 40px;
-  }
-  .whatsapp-icon {
-    bottom: 100px;
-  }
-
-  .phone-icon {
-    bottom: 160px;
-  }
-}
 
 /* Mis proyectos*/
 
@@ -490,6 +473,21 @@ footer a:hover {
   text-decoration: none;
 } */
 @media (max-width: 1156px) {
+  .whatsapp-icon img,
+  .phone-icon img,
+  .linkedin-icon img {
+    width: 40px;
+  }
+  .linkedin-icon {
+    bottom: 40px;
+  }
+  .whatsapp-icon {
+    bottom: 100px;
+  }
+
+  .phone-icon {
+    bottom: 160px;
+  }
   .left,
   .center,
   .right,
@@ -501,7 +499,9 @@ footer a:hover {
   .email-button {
     margin-top: 3%;
   }
-
+  .container-foto img {
+    margin-bottom: 30%;
+  }
   .explainer {
     font-size: 1rem;
   }
