@@ -482,12 +482,13 @@ p {
 }
 footer p a {
   text-decoration: none;
+  color: white;
 }
-footer p:hover,
+/* footer p:hover,
 footer a:hover {
   color: white;
   text-decoration: none;
-}
+} */
 @media (max-width: 1156px) {
   .left,
   .center,
