@@ -200,7 +200,16 @@ span:nth-of-type(7) {
   margin-bottom: 10%;
   border-radius: 20px;
 }
-
+.ontainer-foto::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20%; /* Ajusta esta altura según tus necesidades */
+  box-shadow: inset 0px -10px 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores de la sombra según tus necesidades */
+  pointer-events: none; /* Permite que los clics pasen a la imagen */
+}
 /* Mis proyectos*/
 
 .conteiner-projectos {
