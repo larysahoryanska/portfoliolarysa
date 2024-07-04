@@ -245,7 +245,7 @@ span:nth-of-type(7) {
   background: rgb(238, 236, 229);
   border-radius: 20px;
   transition: 1.2s;
-  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.336);
+  box-shadow: 0 35px 80px rgb(5 34 35);
   font-weight: 200;
 }
 
