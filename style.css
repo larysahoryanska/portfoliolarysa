@@ -199,7 +199,7 @@ span:nth-of-type(7) {
   z-index: 3;
   margin-bottom: 10%;
   border-radius: 20px;
-  box-shadow: inset 8px 10px 10px 1px rgb(1 41 43);
+  box-shadow: inset 0px -10px 15px rgb(1 41 43);
 }
 
 /* Mis proyectos*/
