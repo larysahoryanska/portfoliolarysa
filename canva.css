@@ -25,6 +25,10 @@ video {
 }
 
 @media (max-width: 516px) {
+  .img img,
+  video {
+    max-width: 90%;
+  }
   video {
     max-width: 100%;
   }
