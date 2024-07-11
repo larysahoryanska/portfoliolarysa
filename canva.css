@@ -24,7 +24,7 @@ video {
   margin: 5%;
 }
 
-@media (max-width: 516px) {
+@media (max-width: 600px) {
   .img img,
   video {
     max-width: 90%;
