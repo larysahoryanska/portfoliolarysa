@@ -19,7 +19,7 @@ a {
 
 .img img,
 video {
-  max-width: 90%;
+  max-width: 600px;
   max-height: auto;
   margin: 5%;
 }
