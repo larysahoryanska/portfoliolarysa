@@ -23,9 +23,7 @@ video {
   max-height: auto;
   margin: 5%;
 }
-.img-gif {
-  max-width: 30%;
-}
+
 @media (max-width: 516px) {
   video {
     max-width: 100%;
