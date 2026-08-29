@@ -355,9 +355,6 @@ body {
 .project-link span { transition: transform .2s; }
 .project-link:hover span { transform: translate(3px,-3px); }
 
-.canva-media { display: grid; grid-template-columns: repeat(3, 1fr); aspect-ratio: 16/10; gap: 2px; }
-.canva-media img { width: 100%; height: 100%; object-fit: cover; cursor: pointer; }
-
 /* ============ CONTACT ============ */
 .contact-section { padding-bottom: 140px; }
 .contact-card {
