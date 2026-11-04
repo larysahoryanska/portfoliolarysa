@@ -132,28 +132,6 @@ const barObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.4 });
 bars.forEach(b => barObserver.observe(b));
 
-// ===== LIGHTBOX =====
-const lightbox = document.getElementById('lightbox');
-const lightboxImg = document.getElementById('lightboxImg');
-const lightboxClose = document.getElementById('lightboxClose');
-
-document.querySelectorAll('.lightbox-btn').forEach(el => {
-  el.addEventListener('click', () => {
-    lightboxImg.src = el.dataset.img;
-    lightboxImg.alt = el.dataset.alt || '';
-    lightbox.classList.add('open');
-    document.body.style.overflow = 'hidden';
-  });
-});
-
-function closeLightbox() {
-  lightbox.classList.remove('open');
-  document.body.style.overflow = '';
-}
-lightboxClose.addEventListener('click', closeLightbox);
-lightbox.addEventListener('click', (e) => { if (e.target === lightbox) closeLightbox(); });
-document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeLightbox(); });
-
 // ===== BACK TO TOP =====
 document.getElementById('toTop').addEventListener('click', () => {
   window.scrollTo({ top: 0, behavior: 'smooth' });
