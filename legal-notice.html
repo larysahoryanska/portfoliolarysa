@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal Notice | Larysa Horyanska Pronenko</title>
+<meta name="description" content="Legal notice for the website of Larysa Horyanska Pronenko, self-employed web developer in Granada.">
+<meta name="robots" content="noindex, follow">
+<meta name="author" content="Larysa Horyanska Pronenko">
+<meta name="theme-color" content="#0b0b0f">
+
+<link rel="canonical" href="https://larysahoryanska.github.io/portfoliolarysa/legal-notice.html">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🟢</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+  .legal-wrap { padding: 160px 0 100px; position: relative; z-index: 1; }
+  .legal-content { max-width: 76ch; margin: 0 auto; }
+  .legal-content h2 { font-family: var(--ff-display); font-weight: 600; letter-spacing: -0.01em; font-size: clamp(1.3rem, 2.4vw, 1.6rem); margin: 2.6rem 0 1rem; }
+  .legal-content h2:first-of-type { margin-top: 1.4rem; }
+  .legal-content p { color: var(--text-muted); font-size: 1rem; line-height: 1.7; margin-bottom: 1rem; }
+  .legal-content ul { margin: 0 0 1rem 0; padding-left: 1.3rem; color: var(--text-muted); font-size: 1rem; line-height: 1.7; }
+  .legal-content li { margin-bottom: 0.4rem; list-style: disc; }
+  .legal-content strong { color: var(--text); }
+  .legal-content a { color: var(--accent); text-decoration: underline; text-decoration-color: var(--border); }
+  .legal-content a:hover { text-decoration-color: var(--accent); }
+  .legal-updated { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 2.4rem; }
+  .legal-back { display: inline-flex; align-items: center; gap: 6px; margin-bottom: 2rem; color: var(--text-muted); font-size: 0.92rem; }
+  .legal-back:hover { color: var(--text); }
+</style>
+</head>
+<body>
+
+<!-- Grain / noise overlay -->
+<svg class="noise-svg" aria-hidden="true">
+  <filter id="noiseFilter">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"></feTurbulence>
+    <feColorMatrix type="saturate" values="0"></feColorMatrix>
+  </filter>
+  <rect width="100%" height="100%" filter="url(#noiseFilter)"></rect>
+</svg>
+
+<!-- Aurora background -->
+<div class="aurora" aria-hidden="true">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+</div>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <span class="loader-mark">LH</span>
+</div>
+
+<!-- Progress bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="en.html#inicio" data-nav>Home</a>
+      <a href="en.html#sobre-mi" data-nav>About</a>
+      <a href="en.html#servicios" data-nav>Services</a>
+      <a href="en.html#proyectos" data-nav>Projects</a>
+      <a href="en.html#contacto" data-nav>Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Switch language">
+        <a href="aviso-legal.html" class="lang-option">ES</a><span class="lang-sep">/</span><span class="lang-option active">EN</span>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Switch theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+      <a href="en.html" class="btn btn-sm btn-primary nav-cta">Back home</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <nav aria-label="Mobile navigation">
+    <a href="en.html#inicio" data-nav>Home</a>
+    <a href="en.html#sobre-mi" data-nav>About</a>
+    <a href="en.html#servicios" data-nav>Services</a>
+    <a href="en.html#proyectos" data-nav>Projects</a>
+    <a href="en.html#contacto" data-nav>Contact</a>
+  </nav>
+  <a href="en.html" class="btn btn-primary" style="margin-top:2rem;">Back home</a>
+</div>
+
+<main>
+  <section class="legal-wrap">
+    <div class="container legal-content">
+      <a href="en.html" class="legal-back">← Back home</a>
+
+      <p class="section-tag">Legal</p>
+      <h1 class="section-title">Legal Notice</h1>
+      <p class="legal-updated">Last updated: November 25, 2026</p>
+
+      <h2>1. Owner details</h2>
+      <p>In compliance with Article 10 of Spanish Law 34/2002, of July 11, on Information Society Services and Electronic Commerce (LSSI-CE), the following details of the owner of this website are provided:</p>
+      <ul>
+        <li><strong>Owner:</strong> Larysa Horyanska Pronenko</li>
+        <li><strong>Tax ID (NIF):</strong> 74038956R</li>
+        <li><strong>Activity:</strong> Web design and development, self-employed professional</li>
+        <li><strong>Address:</strong> Calle Tamayo Rubio, 1A, Maracena (Granada), Spain</li>
+        <li><strong>Email:</strong> <a href="mailto:larhor2021@gmail.com">larhor2021@gmail.com</a></li>
+        <li><strong>Phone / WhatsApp:</strong> <a href="tel:+34611432474">+34 611 43 24 74</a></li>
+        <li><strong>Website:</strong> <a href="https://larysahoryanska.github.io/portfoliolarysa/">larysahoryanska.github.io/portfoliolarysa</a></li>
+      </ul>
+
+      <h2>2. Purpose</h2>
+      <p>This Legal Notice governs the use of the website larysahoryanska.github.io/portfoliolarysa (hereinafter, "the website"), made available by Larysa Horyanska Pronenko to Internet users for the purpose of presenting her professional web design and development services.</p>
+      <p>Accessing and using the website implies full acceptance of the conditions set out in this Legal Notice. If you do not agree with them, you should refrain from using this website.</p>
+
+      <h2>3. Terms of use</h2>
+      <p>Users agree to make appropriate and lawful use of the website, in accordance with applicable law, this Legal Notice, generally accepted morals and good customs, and public order. The following, among others, are prohibited:</p>
+      <ul>
+        <li>Using the website for unlawful purposes, or in ways that harm the rights and interests of third parties, or that could damage, disable, or impair the website.</li>
+        <li>Introducing or spreading computer viruses or any other system capable of causing damage to the owner's or third parties' systems.</li>
+        <li>Attempting to access restricted areas of the owner's or third parties' computer systems.</li>
+      </ul>
+
+      <h2>4. Intellectual and industrial property</h2>
+      <p>All content on the website, including but not limited to text, photographs, graphics, images, icons, logos, technology, design, source code, and other audiovisual or sound content, as well as its structure and selection, is the property of Larysa Horyanska Pronenko or, where applicable, is used under license or express authorization.</p>
+      <p>Reproduction, distribution, public communication, transformation, or any other form of exploitation of all or part of the website's content, without the prior written consent of the owner, is prohibited, except where permitted by law or necessary for informational purposes.</p>
+
+      <h2>5. Third-party links</h2>
+      <p>This website may include links to third-party pages or services (for example, LinkedIn or WhatsApp) over which the owner has no control. The owner assumes no responsibility for the content, information, or services that may appear on such sites, which are provided for informational purposes only.</p>
+
+      <h2>6. Limitation of liability</h2>
+      <p>The owner does not guarantee the availability, continuity, or proper functioning of the website, nor that it is free of errors. The owner shall not be liable for any damages arising from interruptions, technical failures, disconnections, delays, or blockages caused by deficiencies in communications or the Internet, nor for actions by third parties beyond the owner's control.</p>
+
+      <h2>7. Data protection</h2>
+      <p>Any personal data that may be provided through the website (for example, when contacting via WhatsApp, phone, or email) will be processed in accordance with Regulation (EU) 2016/679 (GDPR) and Spanish Organic Law 3/2018 (LOPDGDD), solely for the purpose of responding to the user's inquiry or request. It will not be shared with third parties except where legally required. For more information, see the <a href="privacy-policy.html">Privacy Policy</a>.</p>
+
+      <h2>8. Applicable law and jurisdiction</h2>
+      <p>This Legal Notice is governed by Spanish law. For the resolution of any dispute arising from access to or use of the website, the owner and the user submit to the Courts and Tribunals of the user's domicile, or to those of Granada (Spain) where applicable law so permits.</p>
+
+      <h2>9. Contact</h2>
+      <p>For any questions or inquiries regarding this Legal Notice, you can contact us via email at <a href="mailto:larhor2021@gmail.com">larhor2021@gmail.com</a> or by phone/WhatsApp at <a href="tel:+34611432474">+34 611 43 24 74</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© 2026 Larysa Horyanska Pronenko · Granada, Spain · <a href="privacy-policy.html" style="text-decoration:underline;">Privacy</a></p>
+    <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
