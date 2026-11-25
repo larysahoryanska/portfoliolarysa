@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aviso Legal | Larysa Horyanska Pronenko</title>
+<meta name="description" content="Aviso legal del sitio web de Larysa Horyanska Pronenko, desarrolladora web autónoma en Granada.">
+<meta name="robots" content="noindex, follow">
+<meta name="author" content="Larysa Horyanska Pronenko">
+<meta name="theme-color" content="#0b0b0f">
+
+<link rel="canonical" href="https://larysahoryanska.github.io/portfoliolarysa/aviso-legal.html">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🟢</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+  .legal-wrap { padding: 160px 0 100px; position: relative; z-index: 1; }
+  .legal-content { max-width: 76ch; margin: 0 auto; }
+  .legal-content h2 { font-family: var(--ff-display); font-weight: 600; letter-spacing: -0.01em; font-size: clamp(1.3rem, 2.4vw, 1.6rem); margin: 2.6rem 0 1rem; }
+  .legal-content h2:first-of-type { margin-top: 1.4rem; }
+  .legal-content p { color: var(--text-muted); font-size: 1rem; line-height: 1.7; margin-bottom: 1rem; }
+  .legal-content ul { margin: 0 0 1rem 0; padding-left: 1.3rem; color: var(--text-muted); font-size: 1rem; line-height: 1.7; }
+  .legal-content li { margin-bottom: 0.4rem; list-style: disc; }
+  .legal-content strong { color: var(--text); }
+  .legal-content a { color: var(--accent); text-decoration: underline; text-decoration-color: var(--border); }
+  .legal-content a:hover { text-decoration-color: var(--accent); }
+  .legal-updated { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 2.4rem; }
+  .legal-back { display: inline-flex; align-items: center; gap: 6px; margin-bottom: 2rem; color: var(--text-muted); font-size: 0.92rem; }
+  .legal-back:hover { color: var(--text); }
+</style>
+</head>
+<body>
+
+<!-- Grain / noise overlay -->
+<svg class="noise-svg" aria-hidden="true">
+  <filter id="noiseFilter">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"></feTurbulence>
+    <feColorMatrix type="saturate" values="0"></feColorMatrix>
+  </filter>
+  <rect width="100%" height="100%" filter="url(#noiseFilter)"></rect>
+</svg>
+
+<!-- Aurora background -->
+<div class="aurora" aria-hidden="true">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+</div>
+
+<!-- Loader -->
+<div class="loader" id="loader">
+  <span class="loader-mark">LH</span>
+</div>
+
+<!-- Progress bar -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+      <a href="index.html#inicio" data-nav>Inicio</a>
+      <a href="index.html#sobre-mi" data-nav>Sobre mí</a>
+      <a href="index.html#servicios" data-nav>Servicios</a>
+      <a href="index.html#proyectos" data-nav>Proyectos</a>
+      <a href="index.html#contacto" data-nav>Contacto</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Cambiar idioma">
+        <span class="lang-option active">ES</span><span class="lang-sep">/</span><a href="legal-notice.html" class="lang-option">EN</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+      </button>
+      <a href="index.html" class="btn btn-sm btn-primary nav-cta">Volver al inicio</a>
+      <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <nav aria-label="Navegación móvil">
+    <a href="index.html#inicio" data-nav>Inicio</a>
+    <a href="index.html#sobre-mi" data-nav>Sobre mí</a>
+    <a href="index.html#servicios" data-nav>Servicios</a>
+    <a href="index.html#proyectos" data-nav>Proyectos</a>
+    <a href="index.html#contacto" data-nav>Contacto</a>
+  </nav>
+  <a href="index.html" class="btn btn-primary" style="margin-top:2rem;">Volver al inicio</a>
+</div>
+
+<main>
+  <section class="legal-wrap">
+    <div class="container legal-content">
+      <a href="index.html" class="legal-back">← Volver al inicio</a>
+
+      <p class="section-tag">Legal</p>
+      <h1 class="section-title">Aviso Legal</h1>
+      <p class="legal-updated">Última actualización: 25 de noviembre de 2026</p>
+
+      <h2>1. Datos del titular</h2>
+      <p>En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se informa de los siguientes datos del titular de este sitio web:</p>
+      <ul>
+        <li><strong>Titular:</strong> Larysa Horyanska Pronenko</li>
+        <li><strong>NIF:</strong> 74038956R</li>
+        <li><strong>Actividad:</strong> Diseño y desarrollo web, como profesional autónoma</li>
+        <li><strong>Domicilio:</strong> Calle Tamayo Rubio, 1A, Maracena (Granada), España</li>
+        <li><strong>Correo electrónico:</strong> <a href="mailto:larhor2021@gmail.com">larhor2021@gmail.com</a></li>
+        <li><strong>Teléfono / WhatsApp:</strong> <a href="tel:+34611432474">+34 611 43 24 74</a></li>
+        <li><strong>Sitio web:</strong> <a href="https://larysahoryanska.github.io/portfoliolarysa/">larysahoryanska.github.io/portfoliolarysa</a></li>
+      </ul>
+
+      <h2>2. Objeto</h2>
+      <p>El presente Aviso Legal regula el uso del sitio web larysahoryanska.github.io/portfoliolarysa (en adelante, "el sitio web"), que Larysa Horyanska Pronenko pone a disposición de los usuarios de Internet con el fin de dar a conocer sus servicios profesionales de diseño y desarrollo web.</p>
+      <p>El acceso y uso del sitio web implica la aceptación plena de las condiciones recogidas en este Aviso Legal. Si no está de acuerdo con ellas, debe abstenerse de utilizar este sitio web.</p>
+
+      <h2>3. Condiciones de uso</h2>
+      <p>El usuario se compromete a hacer un uso adecuado y lícito del sitio web, de conformidad con la legislación aplicable, el presente Aviso Legal, la moral y buenas costumbres generalmente aceptadas y el orden público. Quedan prohibidos, entre otros:</p>
+      <ul>
+        <li>El uso del sitio web con fines ilícitos, lesivos de los derechos e intereses de terceros, o que de cualquier forma puedan dañar, inutilizar o deteriorar el sitio web.</li>
+        <li>La introducción o difusión de virus informáticos o de cualquier otro sistema que pueda causar daños en los sistemas del titular o de terceros.</li>
+        <li>Intentar acceder a áreas restringidas de los sistemas informáticos del titular o de terceros.</li>
+      </ul>
+
+      <h2>4. Propiedad intelectual e industrial</h2>
+      <p>Todos los contenidos del sitio web, incluyendo, sin carácter limitativo, textos, fotografías, gráficos, imágenes, iconos, logotipos, tecnología, diseño, código fuente y demás contenidos audiovisuales o sonoros, así como su estructura y selección, son propiedad de Larysa Horyanska Pronenko o, en su caso, dispone de licencia o autorización expresa para su uso.</p>
+      <p>Queda prohibida la reproducción, distribución, comunicación pública, transformación o cualquier otra forma de explotación de la totalidad o parte de los contenidos del sitio web, sin el consentimiento previo y por escrito del titular, salvo que la ley lo permita o resulte necesario con fines informativos.</p>
+
+      <h2>5. Enlaces a terceros</h2>
+      <p>Este sitio web puede incluir enlaces a páginas o servicios de terceros (por ejemplo, LinkedIn o WhatsApp) sobre los que el titular no ejerce ningún tipo de control. El titular no asume responsabilidad alguna por los contenidos, informaciones o servicios que puedan aparecer en dichos sitios, los cuales tendrán exclusivamente carácter informativo.</p>
+
+      <h2>6. Limitación de responsabilidad</h2>
+      <p>El titular no garantiza la disponibilidad, continuidad y buen funcionamiento del sitio web, ni que éste se encuentre libre de errores. El titular no será responsable de los daños y perjuicios que puedan derivarse de interrupciones, fallos técnicos, desconexiones, retrasos o bloqueos ocasionados por deficiencias en las comunicaciones o en Internet, ni por acciones de terceros ajenas al control del titular.</p>
+
+      <h2>7. Protección de datos</h2>
+      <p>Los datos personales que puedan facilitarse a través del sitio web (por ejemplo, al contactar por WhatsApp, teléfono o correo electrónico) se tratarán conforme a lo establecido en el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), con la única finalidad de responder a la consulta o solicitud realizada por el usuario. No se cederán a terceros salvo obligación legal. Para más información, consulta la <a href="politica-privacidad.html">Política de Privacidad</a>.</p>
+
+      <h2>8. Legislación aplicable y jurisdicción</h2>
+      <p>El presente Aviso Legal se rige por la legislación española. Para la resolución de cualquier controversia que pudiera derivarse del acceso o uso del sitio web, el titular y el usuario se someten a los Juzgados y Tribunales del domicilio del usuario, o a los de Granada (España) cuando la normativa aplicable lo permita.</p>
+
+      <h2>9. Contacto</h2>
+      <p>Para cualquier duda o consulta relacionada con este Aviso Legal, puedes contactar a través del correo electrónico <a href="mailto:larhor2021@gmail.com">larhor2021@gmail.com</a> o del teléfono/WhatsApp <a href="tel:+34611432474">+34 611 43 24 74</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© 2026 Larysa Horyanska Pronenko · Granada, España · <a href="politica-privacidad.html" style="text-decoration:underline;">Privacidad</a></p>
+    <button id="toTop" class="to-top" aria-label="Volver arriba">↑</button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
